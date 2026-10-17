@@ -20,7 +20,7 @@ interface QueryParams {
 
 const urlParams = new URLSearchParams(window.location.search);
 
-export const BASE_URL = urlParams.get("asset") || "http://62.133.50.117/MysticalGrove/"
+export const BASE_URL = urlParams.get("asset") || "https://62.133.50.117/MysticalGrove/"
 export const urlURL = new URL(BASE_URL);
 export const BASE_CHARACTERS_URL = BASE_URL + "characters/"
 export const BASE_BACKGROUND_URL = BASE_URL + "background/"
